@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 250, 241, 1);
+}
+
+body {
+    max-width: 1248px;
+    margin: auto;
+    font-family: 'poppins';
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 70px;
+}
+
+p {
+    background-color: transparent;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #030047;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 24px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 18px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #8B96FF;
+    margin-right: 15px;
+    padding: 3px 13px;
+    border-radius: 19px;
+    color: white;
+}
+
+/*..........................top nav..........................*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    max-width: 1248px;
+}
+
+/*..........................menu section..........................*/
+header li {
+    display: inline;
+    margin-left: 40px;
+
+}
+
+header li a {
+    color: #030047;
+    text-decoration: none;
+}
+
+header li :hover {
+    color: #1a2cd1;
+}
+
+.top-menu1 {
+    border-bottom: 3px solid #3448FF;
+}
+
+/*..........................search..........................*/
+.topnav input[type=text] {
+    height: 45px;
+    padding-left: 10px;
+    border: 1px solid white;
+    font-size: 16px;
+    background-color: white;
+    color: #A9A9A9;
+    border-radius: 5px 0px 0px 5px;
+    width: 349px;
+}
+
+input[type=text]:focus {
+    outline: none !important;
+    border: 2px solid #E1E4FF
+}
+
+.search-btn {
+    color: #3448FF;
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px 5px 5px 0px;
+    background: #EDEFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-icon {
+    background-color: #EDEFFF;
+}
+
+/*..........................hero section left side..........................*/
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+.hero .hero-left {
+    padding-right: 100px;
+    width: 50%;
+
+}
+
+.hero .hero-left h1 {
+    color: #030047;
+
+}
+
+.hero .hero-left p2 {
+    color: #3448FF;
+}
+
+.hero .hero-left p {
+    margin-top: 15px;
+    color: #5C5A85;
+}
+
+/*..........................call to action button..........................*/
+.cta-button {
+    margin-top: 40px;
+}
+
+.hero .hero-left a {
+    padding: 11px 22px;
+    background: #3448FF;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero .hero-left a:hover {
+    background: #1a2cd1;
+}
+
+/*..........................hero section right side..........................*/
+.hero .hero-image {
+    width: 50%;
+}
+
+.hero .about-image-main{
+    max-width: 615px;
+}
+
+/*..........................About Us section..........................*/
+
+.about-us {
+    background-color: #3448FF;
+    padding: 75px 200px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+}
+
+/*..........................About Us left..........................*/
+.about-us .about-image {
+    background-color: #3448FF;
+    margin-right: 67px;
+    
+}
+
+/*..........................About Us right..........................*/
+.about-us .about-text {
+    background-color: #3448FF;
+}
+
+.about-us .about-text .top{
+    background-color: #3448FF;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.about-us .about-text h3 {
+    background-color: #3448FF;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.about-us .about-text .about-p {
+    background-color: #3448FF;
+    color: #E4E6FF;
+}
+
+.about-us .read-more-area {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+.fa-solid {
+    background-color: transparent;
+    color: white;
+
+}
+
+.about-us .read-more-area p {
+    margin-left: 10px;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+.about-us .read-more-area p:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/*..........................How it works..........................*/
+.How-It-Works .Section-heading {
+    margin-top: 120px;
+    padding: 0px 300px;
+    text-align: center;
+}
+
+.How-It-Works .How-it-works-sections {
+    background-color: white;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.How-it-works-steps {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.How-It-Works .Section-heading p{
+    color: #5C5A85;
+}
+
+.How-It-Works .How-it-works-steps h5 {
+    color: #030047;
+}
+
+.How-It-Works .How-it-works-steps p {
+    color: #5C5A85;
+}
+
+.How-It-Works .How-it-works-steps img {
+    margin-bottom: 20px;
+}
+
+/*..........................Bootcamps..........................*/
+.Bootcamp-section .Section-heading {
+    margin-top: 120px;
+    padding: 0px 300px;
+    text-align: center;
+}
+
+.Bootcamp-section .Section-heading p{
+    color: #5C5A85;
+}
+
+.Bootcamp-section .bootcamps {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-image {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-all .bootcamp-text {
+    padding: 0px 35px 35px 35px;
+    background-color: white;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-all {
+    background-color: white;
+    margin-right: 40px;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-all .bootcamp-text .tags {
+    display: flex;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-all .bootcamp-text .register-button a {
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.Bootcamp-section .bootcamps .bootcamp-all .bootcamp-text .register-button {
+    background-color: #3448FF;
+    padding: 16px 0px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+.Bootcamp-section .bootcamps .bootcamp-all .bootcamp-text .register-button:hover {
+    background: #1a2cd1;
+}
+
+/*..........................Quote..........................*/
+.Quote {
+    background-color: #030047;
+    margin-top: 120px;
+    padding: 85px 200px;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+}
+
+.Quote h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    padding: 0px 150px;
+    font-weight: 700;
+}
+
+/*..........................Who hires our participants..........................*/
+.Who-hires-our-participants .Section-heading {
+    margin-top: 120px;
+    padding: 0px 300px;
+    text-align: center;
+}
+
+.Who-hires-our-participants .Section-heading p{
+    color: #5C5A85;
+}
+
+.Who-hires-our-participants .logos {
+    margin-top: 60px;
+    text-align: center;
+}
+ 
+.Who-hires-our-participants .logos img{
+    margin-right: 30px;
+}
+
+
+/*..........................subscribe-section..........................*/
+.subscribe-section {
+    display: flex;
+    padding: 95px 203px;
+    background-color: #3448FF;
+    margin-top: 120px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.subscribe-section .left {
+    background-color: #3448FF;
+    color: white;
+    width: 50%;
+}
+
+.subscribe-section .right {
+    background-color: #3448FF;
+    width: 50%;
+    display: flex;
+}
+
+.subscribe-section input[type=text] {
+    height: 60px;
+    padding-left: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #DEDEDE;
+    color: #A9A9A9;
+    border-radius: 5px 0px 0px 5px;
+    width: 349px;
+}
+
+.subscribe-section input[type=text]:focus {
+    background-color: white;
+}
+
+.subscribe-section .right .subscribe-btn {
+    background-color: #0D1B9A;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.subscribe-section .right .subscribe-btn:hover {
+    background-color: #060155;
+}
+
+.subscribe-section .right .subscribe-btn p {
+    color: white;
+    padding: 18px 34px;
+}
+
+/*..........................subscribe-section..........................*/
+.footer-section {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background-color: #030047;
+    padding: 70px 96px;
+    display: flex;
+}
+
+.footer-section .footer-blocks {
+    background-color: transparent;
+    height: auto;
+    box-sizing: border-box;
+    width: 25%;
+    padding-right: 70px;
+}
+
+.footer-section .footer-blocks .footer-header {
+    color: white;
+}
+
+.footer-section .footer-blocks .footer-paragraph {
+    color: white;
+}
+
+footer li {
+    background-color: #030047;
+    display: block;
+    font-size: 16px;
+}
+
+footer li a {
+    color: white;
+    background-color: #030047;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.contact-us-icon {
+    background-color: #030047;
+    margin-right: 13px;
+}
+
+.footer-field {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-txt {
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #03003F;
+    color: white;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    font-size: 12px;
+}
+
+.footer-blocks a:hover {
+    border-bottom: 1px solid white;
+}
+
+.bootcamp-all:hover {
+    box-shadow: 0px 3px 10px rgba(139, 150, 255, 0.25);
+}
